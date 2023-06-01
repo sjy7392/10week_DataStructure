@@ -200,7 +200,7 @@ int insert(Node* head, int key)
 {
 	//새로운 노드 생성 및 초기화
 	Node* newNode = (Node*)malloc(sizeof(Node)); 
-	newNode->key = key;
+	newNode->key = key; //새 노드에 키 지정
 	newNode->left = NULL;
 	newNode->right = NULL;
 
