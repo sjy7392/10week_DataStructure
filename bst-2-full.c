@@ -413,6 +413,12 @@ void push(Node* aNode)
 void printStack()
 {
 	int i = 0;
+
+	if (top == -1) {
+        printf("Empty.\n");
+        return;
+    }
+
 	printf("--- stack ---\n");
 	while(i <= top)
 	{
