@@ -397,7 +397,6 @@ int freeBST(Node* head)
 }
 
 
-
 Node* pop()
 {
 	if (top < 0) return NULL; //스택이 빈 경우
